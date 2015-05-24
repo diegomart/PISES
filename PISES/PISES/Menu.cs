@@ -19,16 +19,24 @@ namespace PISES
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult result = MessageBox.Show("¿Seguro que desea salir?", "Salir del Sistema",
+                                                    MessageBoxButtons.YesNo,
+                                                     MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                //MessageBox.Show("Hola"); 
+                Application.Exit();
+            }
+            else if (result == DialogResult.No)
+            {
+            }
+            
+
+          
         }
-
-     
-       
-
 
         
 
-
-       
     }
 }
