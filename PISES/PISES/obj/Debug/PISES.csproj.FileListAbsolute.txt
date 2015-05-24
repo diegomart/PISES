@@ -1,0 +1,10 @@
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\bin\Debug\PISES.exe
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\bin\Debug\PISES.pdb
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.csprojResolveAssemblyReference.cache
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Presentacion.resources
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Properties.Resources.resources
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.csproj.GenerateResource.Cache
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.exe
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.pdb
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Intro.resources
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Menu.resources
