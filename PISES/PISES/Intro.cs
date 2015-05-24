@@ -22,9 +22,9 @@ namespace PISES
         {
 
             Timeintro.Stop();
-          
-            Menu Menu = new Menu();
-            Menu.Show();
+
+            Frase Frase = new Frase();
+            Frase.Show();
             this.Hide();
             
         }

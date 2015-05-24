@@ -33,10 +33,11 @@
             this.primerGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.segundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tercerGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.practicasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.webToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,10 +47,10 @@
             this.primerGradoToolStripMenuItem,
             this.segundoGradoToolStripMenuItem,
             this.tercerGradoToolStripMenuItem,
-            this.practicasToolStripMenuItem,
             this.cursosToolStripMenuItem,
             this.ayudaToolStripMenuItem,
-            this.webToolStripMenuItem});
+            this.webToolStripMenuItem,
+            this.opcionesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(984, 24);
@@ -74,12 +75,6 @@
             this.tercerGradoToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.tercerGradoToolStripMenuItem.Text = "Tercer Grado";
             // 
-            // practicasToolStripMenuItem
-            // 
-            this.practicasToolStripMenuItem.Name = "practicasToolStripMenuItem";
-            this.practicasToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.practicasToolStripMenuItem.Text = "Practicas";
-            // 
             // cursosToolStripMenuItem
             // 
             this.cursosToolStripMenuItem.Name = "cursosToolStripMenuItem";
@@ -98,16 +93,33 @@
             this.webToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.webToolStripMenuItem.Text = "Web";
             // 
+            // opcionesToolStripMenuItem
+            // 
+            this.opcionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salirToolStripMenuItem});
+            this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
+            this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.opcionesToolStripMenuItem.Text = "Opciones";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 741);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -121,10 +133,11 @@
         private System.Windows.Forms.ToolStripMenuItem primerGradoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem segundoGradoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tercerGradoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem practicasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cursosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem webToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
 
 
     }

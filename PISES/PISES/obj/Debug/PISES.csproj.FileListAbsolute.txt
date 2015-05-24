@@ -8,3 +8,4 @@ C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\P
 C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.pdb
 C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Intro.resources
 C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Menu.resources
+C:\Users\JuanDiego\documents\visual studio 2013\Projects\PISES\PISES\obj\Debug\PISES.Frase.resources
