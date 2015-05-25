@@ -13,8 +13,8 @@ namespace PISES
     {
         public Menu()
         {
-            InitializeComponent();           
-            
+            InitializeComponent();
+            IsMdiContainer = true;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -27,6 +27,8 @@ namespace PISES
             {
                 //MessageBox.Show("Hola"); 
                 Application.Exit();
+                //this.Close();               
+                
             }
             else if (result == DialogResult.No)
             {
@@ -34,6 +36,13 @@ namespace PISES
             
 
           
+        }
+
+        private void aRITMÉTICAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Aritmetica Arit = new Aritmetica();
+            Arit.MdiParent = this;
+            Arit.Show();
         }
 
         

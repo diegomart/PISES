@@ -31,24 +31,24 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.primerGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.segundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tercerGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.webToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.primerGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.matematicasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aRITMÉTICAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.áLGEBRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gEOMETRÍAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pROBABILIDADToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cienciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.geografíaDeMéxicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formaciónCívicaYÉticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.educaciónFísicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inglésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aRITMÉTICAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.áLGEBRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gEOMETRÍAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pROBABILIDADToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.segundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tercerGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.webToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +77,14 @@
             this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(89, 27);
             this.opcionesToolStripMenuItem.Text = "Opciones";
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.BackColor = System.Drawing.Color.Chartreuse;
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(116, 28);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // primerGradoToolStripMenuItem
             // 
             this.primerGradoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -91,38 +99,6 @@
             this.primerGradoToolStripMenuItem.Name = "primerGradoToolStripMenuItem";
             this.primerGradoToolStripMenuItem.Size = new System.Drawing.Size(124, 27);
             this.primerGradoToolStripMenuItem.Text = "Primer Grado";
-            // 
-            // segundoGradoToolStripMenuItem
-            // 
-            this.segundoGradoToolStripMenuItem.Name = "segundoGradoToolStripMenuItem";
-            this.segundoGradoToolStripMenuItem.Size = new System.Drawing.Size(136, 27);
-            this.segundoGradoToolStripMenuItem.Text = "Segundo Grado";
-            // 
-            // tercerGradoToolStripMenuItem
-            // 
-            this.tercerGradoToolStripMenuItem.Name = "tercerGradoToolStripMenuItem";
-            this.tercerGradoToolStripMenuItem.Size = new System.Drawing.Size(127, 27);
-            this.tercerGradoToolStripMenuItem.Text = "Tercer Grado";
-            // 
-            // webToolStripMenuItem
-            // 
-            this.webToolStripMenuItem.Name = "webToolStripMenuItem";
-            this.webToolStripMenuItem.Size = new System.Drawing.Size(58, 27);
-            this.webToolStripMenuItem.Text = "Web";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 27);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.BackColor = System.Drawing.Color.Chartreuse;
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 28);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // españolToolStripMenuItem
             // 
@@ -142,6 +118,35 @@
             this.matematicasToolStripMenuItem.Name = "matematicasToolStripMenuItem";
             this.matematicasToolStripMenuItem.Size = new System.Drawing.Size(267, 28);
             this.matematicasToolStripMenuItem.Text = "Matematicas";
+            // 
+            // aRITMÉTICAToolStripMenuItem
+            // 
+            this.aRITMÉTICAToolStripMenuItem.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.aRITMÉTICAToolStripMenuItem.Name = "aRITMÉTICAToolStripMenuItem";
+            this.aRITMÉTICAToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
+            this.aRITMÉTICAToolStripMenuItem.Text = "ARITMÉTICA";
+            this.aRITMÉTICAToolStripMenuItem.Click += new System.EventHandler(this.aRITMÉTICAToolStripMenuItem_Click);
+            // 
+            // áLGEBRAToolStripMenuItem
+            // 
+            this.áLGEBRAToolStripMenuItem.BackColor = System.Drawing.Color.Azure;
+            this.áLGEBRAToolStripMenuItem.Name = "áLGEBRAToolStripMenuItem";
+            this.áLGEBRAToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
+            this.áLGEBRAToolStripMenuItem.Text = "ÁLGEBRA";
+            // 
+            // gEOMETRÍAToolStripMenuItem
+            // 
+            this.gEOMETRÍAToolStripMenuItem.BackColor = System.Drawing.Color.LightCyan;
+            this.gEOMETRÍAToolStripMenuItem.Name = "gEOMETRÍAToolStripMenuItem";
+            this.gEOMETRÍAToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
+            this.gEOMETRÍAToolStripMenuItem.Text = "GEOMETRÍA";
+            // 
+            // pROBABILIDADToolStripMenuItem
+            // 
+            this.pROBABILIDADToolStripMenuItem.BackColor = System.Drawing.Color.Aqua;
+            this.pROBABILIDADToolStripMenuItem.Name = "pROBABILIDADToolStripMenuItem";
+            this.pROBABILIDADToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
+            this.pROBABILIDADToolStripMenuItem.Text = "PROBABILIDAD";
             // 
             // cienciasToolStripMenuItem
             // 
@@ -185,33 +190,29 @@
             this.inglésToolStripMenuItem.Size = new System.Drawing.Size(267, 28);
             this.inglésToolStripMenuItem.Text = "Inglés";
             // 
-            // aRITMÉTICAToolStripMenuItem
+            // segundoGradoToolStripMenuItem
             // 
-            this.aRITMÉTICAToolStripMenuItem.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.aRITMÉTICAToolStripMenuItem.Name = "aRITMÉTICAToolStripMenuItem";
-            this.aRITMÉTICAToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
-            this.aRITMÉTICAToolStripMenuItem.Text = "ARITMÉTICA";
+            this.segundoGradoToolStripMenuItem.Name = "segundoGradoToolStripMenuItem";
+            this.segundoGradoToolStripMenuItem.Size = new System.Drawing.Size(136, 27);
+            this.segundoGradoToolStripMenuItem.Text = "Segundo Grado";
             // 
-            // áLGEBRAToolStripMenuItem
+            // tercerGradoToolStripMenuItem
             // 
-            this.áLGEBRAToolStripMenuItem.BackColor = System.Drawing.Color.Azure;
-            this.áLGEBRAToolStripMenuItem.Name = "áLGEBRAToolStripMenuItem";
-            this.áLGEBRAToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
-            this.áLGEBRAToolStripMenuItem.Text = "ÁLGEBRA";
+            this.tercerGradoToolStripMenuItem.Name = "tercerGradoToolStripMenuItem";
+            this.tercerGradoToolStripMenuItem.Size = new System.Drawing.Size(127, 27);
+            this.tercerGradoToolStripMenuItem.Text = "Tercer Grado";
             // 
-            // gEOMETRÍAToolStripMenuItem
+            // webToolStripMenuItem
             // 
-            this.gEOMETRÍAToolStripMenuItem.BackColor = System.Drawing.Color.LightCyan;
-            this.gEOMETRÍAToolStripMenuItem.Name = "gEOMETRÍAToolStripMenuItem";
-            this.gEOMETRÍAToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
-            this.gEOMETRÍAToolStripMenuItem.Text = "GEOMETRÍA";
+            this.webToolStripMenuItem.Name = "webToolStripMenuItem";
+            this.webToolStripMenuItem.Size = new System.Drawing.Size(58, 27);
+            this.webToolStripMenuItem.Text = "Web";
             // 
-            // pROBABILIDADToolStripMenuItem
+            // ayudaToolStripMenuItem
             // 
-            this.pROBABILIDADToolStripMenuItem.BackColor = System.Drawing.Color.Aqua;
-            this.pROBABILIDADToolStripMenuItem.Name = "pROBABILIDADToolStripMenuItem";
-            this.pROBABILIDADToolStripMenuItem.Size = new System.Drawing.Size(207, 28);
-            this.pROBABILIDADToolStripMenuItem.Text = "PROBABILIDAD";
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 27);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // Menu
             // 

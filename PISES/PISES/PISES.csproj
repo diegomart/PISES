@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aritmetica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aritmetica.Designer.cs">
+      <DependentUpon>Aritmetica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Aritmetica.resx">
+      <DependentUpon>Aritmetica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frase.resx">
       <DependentUpon>Frase.cs</DependentUpon>
     </EmbeddedResource>
