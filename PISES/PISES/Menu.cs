@@ -38,11 +38,62 @@ namespace PISES
           
         }
 
-        private void aRITMÉTICAToolStripMenuItem_Click(object sender, EventArgs e)
+      
+        private void aritmeticaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Aritmetica Arit = new Aritmetica();
             Arit.MdiParent = this;
             Arit.Show();
+
+        }
+
+        private void comparacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Naturales Natu = new Naturales();
+            Natu.MdiParent = this;
+            Natu.Show();
+        }
+
+        private void raicezYPotenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RaizPotencia RP = new RaizPotencia();
+            RP.MdiParent = this;
+            RP.Show();
+        }
+
+        private void áLGEBRAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Algebra ALG = new Algebra();
+            ALG.MdiParent = this;
+            ALG.Show();
+        }
+
+        private void figurasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Figuras Fig = new Figuras();
+            Fig.MdiParent = this;
+            Fig.Show();
+        }
+
+        private void triángulosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Triangulos TANG = new Triangulos();
+            TANG.MdiParent = this;
+            TANG.Show();
+        }
+
+        private void graficasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Graficas GR = new Graficas();
+            GR.MdiParent = this;
+            GR.Show();
+        }
+
+        private void probabilidadToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Probabilidad PB = new Probabilidad();
+            PB.MdiParent = this;
+            PB.Show();
         }
 
         

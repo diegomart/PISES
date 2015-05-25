@@ -44,17 +44,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algebra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Algebra.Designer.cs">
+      <DependentUpon>Algebra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Angulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Angulos.Designer.cs">
+      <DependentUpon>Angulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aritmetica.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Aritmetica.Designer.cs">
       <DependentUpon>Aritmetica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Figuras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Figuras.Designer.cs">
+      <DependentUpon>Figuras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frase.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frase.Designer.cs">
       <DependentUpon>Frase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficas.Designer.cs">
+      <DependentUpon>Graficas.cs</DependentUpon>
     </Compile>
     <Compile Include="Intro.cs">
       <SubType>Form</SubType>
@@ -68,19 +92,55 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Naturales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naturales.Designer.cs">
+      <DependentUpon>Naturales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion.Designer.cs">
       <DependentUpon>Presentacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Probabilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Probabilidad.Designer.cs">
+      <DependentUpon>Probabilidad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaizPotencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaizPotencia.Designer.cs">
+      <DependentUpon>RaizPotencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Triangulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Triangulos.Designer.cs">
+      <DependentUpon>Triangulos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Algebra.resx">
+      <DependentUpon>Algebra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Angulos.resx">
+      <DependentUpon>Angulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Aritmetica.resx">
       <DependentUpon>Aritmetica.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Figuras.resx">
+      <DependentUpon>Figuras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frase.resx">
       <DependentUpon>Frase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficas.resx">
+      <DependentUpon>Graficas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Intro.resx">
       <DependentUpon>Intro.cs</DependentUpon>
@@ -88,13 +148,25 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Naturales.resx">
+      <DependentUpon>Naturales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion.resx">
       <DependentUpon>Presentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Probabilidad.resx">
+      <DependentUpon>Probabilidad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaizPotencia.resx">
+      <DependentUpon>RaizPotencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Triangulos.resx">
+      <DependentUpon>Triangulos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="ClassDiagram2.cd" />

@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head id='head'>
+<meta http-equiv="imagetoolbar" content="no" >
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta name="keywords" content="matemáticas, práctica, quiz, examen, examen, estudiante, gratis" >
+<meta name="description" content="Práctica de las matemáticas" >
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes" >
+<meta http-equiv="Content-Language" content="en-us" >
+<script>function ldPre(A){document.write("<script type='text/javascript' src='"+A+"'><\/script>")}ldPre((window.location&&location.protocol=="https:"?"https://c477748.ssl.cf2.rackcdn.com":"http://c477748.r48.cf2.rackcdn.com")+"/s/es/lib291/prelib.js");</script><script>if(!window.sdn){ldPre("/./s/es/lib291/./prelib.js")};</script>
+<script>/*Copyright Andrew Lyczak.  All rights reserved.  No HTML pages and/or Javascript may be reproduced without prior permission of the author.*/
+Gj();fVi(["lib291/biglib"]);</script><script>fJT(["lib291/biglib"]);var mcq=[],jgc,car=[],quiz=0,clib={},dloc=location,dtit=dloc.pathname.replace(/-/g," ").split("/").slice(2,-1).join(" - ");function renew(){if(quiz){return quiz.reset()}}jf2("<title>"+(dtit.length>0?decodeURIComponent(dtit.charAt(0).toUpperCase()+dtit.substr(1)):"Examen de practicar")+"</title>");if(q53){aWy([".qq input[type=text] {font-size:85%}"])};</script>
+<script>var qn=aWu(),ldm={algebra:["algebra","multiplechoice"],angles:["geometry","measurement"],fracineq:["inequality"],fraction:["arithmetic","fraction"],triangle:["geometry","shapes"],vocabulary:["multiplechoice","verb"],periodictable:["periodictable","multiplechoice"],calculus:["calculus","algebra","trigonometry"],geography:["imgmap"],science:["imgmap"],printable:[],gradereview:[]},lb=map(ldm[qn]||[qn],function(A){return"quiz291/"+A}),fake=(qn=="printable"||qn=="gradereview");if(!fake&&top.frames.length){top.location=dloc}var allLibs=[fake?"create291/create"+qn:null,y98?"lib291/smartph":null];fVi(allLibs);</script><script>fJT(allLibs);</script>
+</head>
+<body id="body" class="landsc" onload="initialize()" onkeydown="return(fZO(event))">
+<form accept-charset="utf-8" id="tqt" name="tqt" onsubmit="return(false);" autocomplete="off">
+<table class="bZQ" id="quiztable" cellspacing=0 cellpadding=0>
+<tr>
+<td class="quizoptions" id="quizoptions"><div class="quizoptions">
+<table cellspacing="0" cellpadding="0" class="s9q"><tbody class="quizoptions">
+<tr><td class="aWS"><label for="TESTLENGTH" accesskey="N">Largo</label></td>
+<td>
+<select id="TESTLENGTH" name="TESTLENGTH" onchange="renew()">
+<option value="10" selected >10</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="40">40</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="101">Abierta</option>
+</select></td></tr>
+<tr><td class="aWS">
+<label for="LEVEL" accesskey="L">Nivel</label>
+</td><td>
+<select id="LEVEL" name="LEVEL" onchange="renew()">
+</select>
+</td></tr>
+<tr><td class="aWS">
+<label for="TIMELIMIT" accesskey="M">Duración</label>
+</td><td>
+<select id="TIMELIMIT" name="TIMELIMIT" onchange="renew()">
+<option value="86400">Abierta</option>
+<option value="0">Escondida</option>
+<option value="30">0:30</option>
+<option value="60">1:00</option>
+<option value="120">2:00</option>
+<option value="180">3:00</option>
+<option value="240">4:00</option>
+<option value="300">5:00</option>
+<option value="600">10:00</option>
+<option value="1200">20:00</option>
+<option value="1800">30:00</option>
+</select>
+</td></tr>
+<tr><td class="aWS">
+<label for="PACE" accesskey="P" title="Pausar para ver resultado (segundos)">Pausa</label>
+</td><td>
+<select id="PACE" name="PACE" onchange="if(quiz)quiz.Yd()" title="Pausar para ver resultado (segundos)">
+<option value="0">No</option>
+<option value="86400">Sí</option>
+<option value="1000">1</option>
+<option value="2000">2</option>
+<option value="3000">3</option>
+<option value="4000">4</option>
+</select>
+</td></tr></tbody></table>
+<input type="hidden" id="TESTDEF" name="TESTDEF" comment="workaround_for_creategraphs.js_bug_leave_me_in" />
+<input type="hidden" id="COMPLETED" name="COMPLETED" value="0"/>
+<input type="hidden" id="MCQ" name="MCQ" value=""/>
+<input type="hidden" id="NKEY" name="NKEY" value=""/>
+<br/><br class="XF"/>
+<div id="category"></div>
+<center>
+<div id="mkUrl" style="margin:20px 0 4px;clear:both;">
+<a href='javascript:if(quiz)quiz.Bf9(1)' style='font-size:12px;' title='Enlace para esta configuración'>Hacer enlace</a>
+</div>
+</center>
+</div></td>
+<td class="normal" id="centerpanel">
+<div id="cxm"></div>
+<div id="mnpad"></div>
+<div id="cnvbb">
+<center>
+<div class="qztitle" id="qztitle"></div>
+<div class="canvas" id="canvas"></div>
+<div class="bo" id="bo"></div>
+</center>
+</div>
+</td>
+<td class="quizoptions" id="roptions">
+<center id="qocenter">
+<table cellspacing="0" cellpadding="0" class="q8s"><tbody class="quizoptions">
+<tr><td class="aWS">Acertado</td><td><input id="CORRECT" name="CORRECT" class="status" type="text" value="0" readonly="readonly" /></td></tr>
+<tr><td class="aWS">Equivocado</td><td><input id="WRONG" name="WRONG" class="status" type="text" value="0" readonly="readonly" /></td></tr>
+<tr id="g663"><td class="aWS">Reloj</td><td><input id="CLOCK" name="CLOCK" class="status" type="text" value="" readonly="readonly" /></td></tr>
+</tbody>
+</table>
+<table id='Z3' class='Z3' align=center cellpadding=0>
+<tr><td id='pbar' onmousedown='if(quiz)quiz.u7a(event)' colspan='3'></td></tr>
+<tr id="nbtr" class="nbhid">
+<td class=v5c><button id='NAVBK' type='button' title='Anterior' class='o96' disabled>&lt;&lt;</button></td>
+<td class=v5c><button id='NAVFW' type='button' title='Próximo' class='o96' disabled>&gt;&gt;</button></td>
+<td class=v5c><button id='v5b' type='button' title='Último' class='o96' disabled><div class=v5a></div></button></td>
+</tr>
+<tr class='hidden'><td colspan=3><button id='v5d' type='button' disabled>Rehacer</button></tr>
+</table>
+<a id='tqhome' class='tqhome' href='/es/'><div id='mTests'>Matemáticas</div></a>
+<button id="fJK" type="button" onclick="renew()" accesskey="R">Reiniciar</button>
+<div id="quizinfo" class="quizinfo">&nbsp;</div>
+</center>
+</td>
+</tr>
+<tr><td colspan=3 id='footer'></td></tr>
+</table>
+</form>
+<div id="hju"></div>
+<iframe class="ifr" src="about:blank" name="hiddenframe"></iframe>
+</body>
+</html>
+<script>fZ6(lb);var pending=lb.concat(["lib291/quizlib"]);if(!fake){pending.push("create291/create"+qn)}fVi(pending);</script><script>fJT(pending);function bJ0(){return clib.bJ0()}function initialize(){if(y98){smartPh(1)}if(!window["Create"+qn]){dloc.replace("/es-1/")}var A=ldm[qn]||[qn];car=map(A,function(B){return(window[B]=new window[up(B)])});quiz=new Quizlib(null,TQ_RW|TQ_FW);clib=new window["Create"+qn]();if(quiz.nonmath=/vocabulary|imgmap|periodictable/.test(qn)){q9("mTests").innerHTML="pruebitas"}quiz.practice=true;quiz.fVx=101;q9("qztitle").innerHTML=quiz.customTitle||clib.name;fJO(clib.category);quiz.zZ9();qF0(q9("LEVEL"),clib.levels);Dp1();if(window.smartphorientch){smartphorientch()}renew();if(quiz.r8d){quiz.r8d()}};</script>

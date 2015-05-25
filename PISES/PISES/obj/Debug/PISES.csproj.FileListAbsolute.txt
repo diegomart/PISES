@@ -21,3 +21,11 @@ C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\P
 C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Properties.Resources.resources
 C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.csproj.GenerateResource.Cache
 C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Aritmetica.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Naturales.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.RaizPotencia.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Algebra.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Angulos.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Figuras.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Graficas.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Probabilidad.resources
+C:\Users\JuanDiego\Documents\Visual Studio 2013\Projects\RepoPISES\PISES\PISES\PISES\obj\Debug\PISES.Triangulos.resources

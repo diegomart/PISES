@@ -1,6 +1,6 @@
 ﻿namespace PISES
 {
-    partial class Aritmetica
+    partial class Figuras
     {
         /// <summary>
         /// Required designer variable.
@@ -40,18 +40,17 @@
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(1284, 741);
             this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("http://www.thatquiz.org/es-1/", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("http://www.thatquiz.org/es-f/", System.UriKind.Absolute);
             // 
-            // Aritmetica
+            // Figuras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 741);
             this.Controls.Add(this.webBrowser1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Aritmetica";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Aritmetica";
+            this.Name = "Figuras";
+            this.Text = "Figuras";
             this.ResumeLayout(false);
 
         }

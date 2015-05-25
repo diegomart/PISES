@@ -1,6 +1,6 @@
 ﻿namespace PISES
 {
-    partial class Aritmetica
+    partial class Angulos
     {
         /// <summary>
         /// Required designer variable.
@@ -40,18 +40,17 @@
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(1284, 741);
             this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("http://www.thatquiz.org/es-1/", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("http://www.thatquiz.org/es-C/", System.UriKind.Absolute);
             // 
-            // Aritmetica
+            // Angulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 741);
             this.Controls.Add(this.webBrowser1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Aritmetica";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Aritmetica";
+            this.Name = "Angulos";
+            this.Text = "Angulos";
             this.ResumeLayout(false);
 
         }
